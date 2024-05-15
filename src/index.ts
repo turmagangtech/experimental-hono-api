@@ -7,6 +7,8 @@ import { z } from 'zod';
 
 dotenv.config();
 
+// TODO further additional instructions https://dev.to/bimaadi/integrate-hono-with-openapiswagger-3dem
+
 const app = new OpenAPIHono();
 
 app.doc('/doc', {
